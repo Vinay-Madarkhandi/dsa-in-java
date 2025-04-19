@@ -1,3 +1,4 @@
+package Arrays;
 public class Array_assignment {
     public static boolean Q1(int nums[]) {
         for (int i = 0; i < nums.length; i++) {

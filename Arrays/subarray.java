@@ -1,3 +1,4 @@
+package Arrays;
 public class subarray {
     public static void subArray(int nums[]) {
         for (int i = 0; i < nums.length; i++) {
