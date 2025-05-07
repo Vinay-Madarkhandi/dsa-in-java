@@ -21,6 +21,8 @@ public class Substring {
     public static void main(String[] args) {
         String str = "HelloWorld";
         System.out.println(subStr(str, 0, 5));
+        int length = (str.length() * (str.length() - 1)) / 2;
         getAllSubString(str);
+        System.out.println("The no of substring can be formed is : " + length);
     }
 }
