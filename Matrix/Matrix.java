@@ -60,5 +60,6 @@ public class Matrix {
 
         largestElement(matrix);
         smallestElement(matrix);
+        sc.close();
     }
 }

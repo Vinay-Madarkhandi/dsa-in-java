@@ -1,5 +1,4 @@
 package Arrays;
-import java.util.*;
 
 public class reverse {
     public static void arrReverse(int numbers[]) {

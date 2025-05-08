@@ -1,5 +1,3 @@
-import Arrays.reverse;
-
 class BitOperations {
     public static int getIthBit(int n, int i) {
         int bitMask = 1 << i;
@@ -28,7 +26,7 @@ class BitOperations {
         // }
         int no = clearIthBit(n, i);
         int bitMask = newBit << i;
-        return no | bitMask ;
+        return no | bitMask;
     }
 
     public static void main(String[] args) {

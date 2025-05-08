@@ -6,14 +6,14 @@ class Stringss {
     public static void subStrNo(int n[]) {
         ArrayList<Integer> list = new ArrayList<>();
         // for (int i = 0; i < n.length; i++) {
-        //     for (int j = i; j < n.length; j++) {
-        //         String conc = "";
-        //         for (int k = i; k <= j; k++) {
-        //             conc += n[k];
-        //         }
-        //         int num = Integer.parseInt(conc);
-        //         list.add(num);
-        //     }
+        // for (int j = i; j < n.length; j++) {
+        // String conc = "";
+        // for (int k = i; k <= j; k++) {
+        // conc += n[k];
+        // }
+        // int num = Integer.parseInt(conc);
+        // list.add(num);
+        // }
         // }
 
         // Optmised way using maths where no String is used
@@ -63,8 +63,7 @@ class Stringss {
 
         subStrNo(digitArray);
 
-        String str = "mam";
-        
+        sc.close();
 
     }
 }

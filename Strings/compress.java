@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class compress {
-    public static int compress(char[] chars) {
+    public static int compression(char[] chars) {
         ArrayList<Character> arr = new ArrayList<Character>();
         for (int i = 0; i < chars.length; i++) {
             Integer count = 1;
@@ -41,7 +41,7 @@ class compress {
 
     public static void main(String[] args) {
         char chars[] = { 'a', 'a', 'b', 'b', 'c', 'c', 'c' };
-        System.out.println(compress(chars));
+        System.out.println(compression(chars));
         String str = "aabbccc";
         System.out.println(compressString(str));
     }

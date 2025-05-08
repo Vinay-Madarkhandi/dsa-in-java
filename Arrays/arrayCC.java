@@ -1,6 +1,4 @@
 package Arrays;
-import java.util.*;
-
 class arrayCC {
     static int largestValue(int arr[]) {
         int largest = Integer.MIN_VALUE;
