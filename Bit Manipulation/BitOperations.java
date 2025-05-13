@@ -73,6 +73,11 @@ class BitOperations {
         return ans;
     }
 
+    public static int fastExponentaionDiff(int a, int n) {
+        int x2 = fastExponentaionDiff(a, n / 2);
+        return x2 * x2;
+    }
+
     public static void main(String[] args) {
         System.out.println(getIthBit(10, 2));
         System.out.println(setIthBit(10, 2));
@@ -82,5 +87,6 @@ class BitOperations {
         System.out.println(isPowerOfTwo(32));
         System.out.println(countSetBits(10));
         System.out.println(fastExponentaion(3, 5));
+        System.out.println(fastExponentaionDiff(5, 3));
     }
 }
